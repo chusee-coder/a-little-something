@@ -32,8 +32,7 @@ button {
 
 #surprise { display: none; }
 
-#secret-picture { 
-    display: none; 
+#secret-picture {  
     margin-top: 20px;
     max-width: 100%;
     height: auto;
