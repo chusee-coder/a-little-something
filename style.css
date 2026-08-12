@@ -9,6 +9,7 @@ body {
     justify-content: center;
 
     font-family: Trebuchet MS, sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -30,12 +31,20 @@ button {
     cursor: pointer;
 }
 
-#surprise { display: none; }
-
-#secret-picture {  
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
+#surprise { display: none; 
+            text-align: center;
 }
 
-#secret-message { font-size: 20px; color: darkred; align-items: center; margin-top: 20px; }
+#secret-picture {  
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+#secret-message { 
+    font-size: 20px; 
+    color: darkred; 
+    text-align: center; 
+    margin-top: 20px; 
+}
